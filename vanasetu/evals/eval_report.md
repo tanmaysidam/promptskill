@@ -1,5 +1,5 @@
 # VanaSetu Historical Benchmark Evaluation Report
-**Execution Date**: 2026-10-23 13:52:32
+**Execution Date**: 2026-10-23 14:38:19
 
 ## Summary Metrics
 - **Total Test Cases**: 6
@@ -7,7 +7,7 @@
 - **Deterministic Policy Adherence**: `100.0%`
 - **DFO Escalation Threshold Precision**: `100.0%`
 - **False Alarms Successfully Suppressed**: `2`
-- **Total Elapsed Time**: `0.009s` (avg `0.0015s/case`)
+- **Total Elapsed Time**: `0.013s` (avg `0.0022s/case`)
 
 ## Case-by-Case Breakdown
 | Case ID | Scenario Name | Expected Cause | Actual Diagnosed | Diag Match | Policy Valid | DFO Req | Cost (INR) |

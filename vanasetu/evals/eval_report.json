@@ -4,8 +4,8 @@
   "policy_adherence_pct": 100.0,
   "dfo_escalation_accuracy_pct": 100.0,
   "false_alarms_suppressed": 2,
-  "total_evaluation_time_sec": 0.009,
-  "average_latency_per_case_sec": 0.0015,
+  "total_evaluation_time_sec": 0.013,
+  "average_latency_per_case_sec": 0.0022,
   "results": [
     {
       "case_id": "TC-001-VIDARBHA-DROUGHT",
@@ -19,8 +19,8 @@
       "policy_match": true,
       "expected_dfo": true,
       "actual_dfo": true,
-      "latency_sec": 0.0014,
-      "work_order_id": "WO-MA--001-6EB5CA",
+      "latency_sec": 0.0018,
+      "work_order_id": "WO-MA--001-4703A4",
       "cost_inr": 48750.0
     },
     {
@@ -35,8 +35,8 @@
       "policy_match": true,
       "expected_dfo": true,
       "actual_dfo": true,
-      "latency_sec": 0.0014,
-      "work_order_id": "WO-OD--003-306AEF",
+      "latency_sec": 0.0026,
+      "work_order_id": "WO-OD--003-C80406",
       "cost_inr": 72000.0
     },
     {
@@ -51,8 +51,8 @@
       "policy_match": true,
       "expected_dfo": true,
       "actual_dfo": true,
-      "latency_sec": 0.0015,
-      "work_order_id": "WO-KA--014-5FC5E7",
+      "latency_sec": 0.002,
+      "work_order_id": "WO-KA--014-5EB3ED",
       "cost_inr": 36000.0
     },
     {
@@ -68,7 +68,7 @@
       "expected_dfo": true,
       "actual_dfo": true,
       "latency_sec": 0.0018,
-      "work_order_id": "WO-TE--009-E7E44D",
+      "work_order_id": "WO-TE--009-68B200",
       "cost_inr": 35000.0
     },
     {
@@ -83,8 +83,8 @@
       "policy_match": true,
       "expected_dfo": false,
       "actual_dfo": false,
-      "latency_sec": 0.0014,
-      "work_order_id": "WO-MA--022-503993",
+      "latency_sec": 0.002,
+      "work_order_id": "WO-MA--022-0D8626",
       "cost_inr": 0.0
     },
     {
@@ -99,8 +99,8 @@
       "policy_match": true,
       "expected_dfo": false,
       "actual_dfo": false,
-      "latency_sec": 0.0014,
-      "work_order_id": "WO-MA--007-217DB6",
+      "latency_sec": 0.0026,
+      "work_order_id": "WO-MA--007-8C4CB6",
       "cost_inr": 0.0
     }
   ]
