@@ -1,0 +1,17 @@
+# Core Data Modeling & Validation
+pydantic>=2.5.0
+
+# HTTP & Remote APIs (Open-Meteo, FIRMS)
+requests>=2.28.0
+
+# Numerical Computing & Analytics
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Testing & Benchmark Harness
+pytest>=7.4.0
+
+# Optional Google Cloud & Live LLM Integrations
+# (System runs fully offline with deterministic fallbacks if omitted)
+google-cloud-bigquery>=3.14.0
+google-generativeai>=0.4.0

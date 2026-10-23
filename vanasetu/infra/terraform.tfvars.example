@@ -1,0 +1,10 @@
+# VanaSetu Example Terraform Variables
+# Copy to terraform.tfvars and update with your GCP project details
+
+project_id                = "my-gcp-forest-project"
+region                    = "asia-south1"
+zone                      = "asia-south1-a"
+environment               = "prod"
+bigquery_dataset_name     = "vanasetu_monitoring"
+storage_bucket_prefix     = "vanasetu-earth-observation"
+alert_notification_email  = "dfo-yavatmal@vanasetu.nic.in"

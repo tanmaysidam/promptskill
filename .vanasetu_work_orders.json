@@ -1,0 +1,918 @@
+[
+  {
+    "work_order_id": "WO-OD--003-8EBA83",
+    "parcel_id": "OR-SMP-2024-003",
+    "created_at": "2026-10-23T13:39:21Z",
+    "status": "VERIFIED",
+    "urgency": "CRITICAL",
+    "diagnosed_cause": "SURFACE_FIRE_SCORCH",
+    "confidence_score": 0.92,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 2.5% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Fire confirmed: VIIRS-NOAA20 detected thermal anomaly at 0.82km with 92.0% confidence (FRP: 18.4MW).\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b972,000.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "FIRE SUPPRESSION & BUFFER PERIMETER CLEARANCE: Clear a 5-meter wide fire break line around the affected parcel boundary. Clear dry leaf litter. Douse smoldering logs and assess root collar scorch on surviving saplings. Prune burnt branch tips.",
+    "crew_instructions_hi": "\u0905\u0917\u094d\u0928\u093f \u0936\u092e\u0928 \u090f\u0935\u0902 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 \u0928\u093f\u0930\u094d\u092e\u093e\u0923: \u092a\u094c\u0927\u0930\u094b\u092a\u0923 \u0938\u0940\u092e\u093e \u092a\u0930 5 \u092e\u0940\u091f\u0930 \u091a\u094c\u0921\u093c\u0940 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 (Fire break) \u0924\u0941\u0930\u0902\u0924 \u0938\u093e\u092b \u0915\u0930\u0947\u0902\u0964 \u0938\u0942\u0916\u0940 \u092a\u0924\u094d\u0924\u093f\u092f\u094b\u0902 \u0914\u0930 \u0938\u0941\u0932\u0917\u0924\u0940 \u0932\u0915\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u094b \u092c\u0941\u091d\u093e\u090f\u0902\u0964 \u091d\u0941\u0932\u0938\u0947 \u0939\u0941\u090f \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091b\u0902\u091f\u093e\u0908 \u0915\u0930\u0947\u0902 \u0924\u0925\u093e \u091c\u0921\u093c \u0915\u094b \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0915\u0930\u0947\u0902\u0964",
+    "recommended_actions": [
+      "Deploy forest fire squad immediately with backpack mist extinguishers and fire rakes.",
+      "Carve a 5-meter wide cleared fire break line along the active perimeter.",
+      "Douse smoldering leaf litter and protect sapling root collars."
+    ],
+    "required_equipment": [
+      "Backpack Water Mist Fire Extinguishers",
+      "Fire Rakes / Bilhook",
+      "Hand Sprayers",
+      "Safety Helmets"
+    ],
+    "estimated_person_days": 72,
+    "estimated_cost_inr": 72000.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "Subhashree Marndi (Forester)",
+    "contact_phone": "+91-9437198765",
+    "dispatch_payload": {
+      "recipient_name": "Subhashree Marndi (Forester)",
+      "recipient_phone": "+91-9437198765",
+      "division": "Baripada Division",
+      "range": "Pithabata",
+      "beat": "Similipal Buffer Beat 4",
+      "parcel_id": "OR-SMP-2024-003",
+      "urgency": "CRITICAL",
+      "cause": "SURFACE_FIRE_SCORCH",
+      "summary_hi": "\u0905\u0917\u094d\u0928\u093f \u0936\u092e\u0928 \u090f\u0935\u0902 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 \u0928\u093f\u0930\u094d\u092e\u093e\u0923: \u092a\u094c\u0927\u0930\u094b\u092a\u0923 \u0938\u0940\u092e\u093e \u092a\u0930 5 \u092e\u0940\u091f\u0930 \u091a\u094c\u0921\u093c\u0940 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 (Fire break) \u0924\u0941\u0930\u0902\u0924 \u0938\u093e\u092b \u0915\u0930\u0947\u0902\u0964 \u0938\u0942\u0916\u0940 \u092a\u0924\u094d\u0924\u093f\u092f\u094b\u0902 \u0914\u0930 \u0938\u0941\u0932\u0917\u0924\u0940 \u0932\u0915\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u094b \u092c\u0941\u091d\u093e\u090f\u0902\u0964 \u091d\u0941\u0932\u0938\u0947 \u0939\u0941\u090f \u092a\u094c\u0927\u094b\u0902",
+      "summary_en": "FIRE SUPPRESSION & BUFFER PERIMETER CLEARANCE: Clear a 5-meter wide fire break line around the affected parcel boundary. Clear dry leaf litter. Douse smoldering"
+    }
+  },
+  {
+    "work_order_id": "WO-MA--001-ACE846",
+    "parcel_id": "MH-YTL-2024-001",
+    "created_at": "2026-10-23T13:40:01Z",
+    "status": "VERIFIED",
+    "urgency": "CRITICAL",
+    "diagnosed_cause": "DROUGHT_STRESS",
+    "confidence_score": 0.93,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 4.5% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Drought confirmed: 21 consecutive dry days, 7d precip 1.2mm, deficit 74.0%.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b948,750.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "EMERGENCY IRRIGATION & SOIL CONSERVATION: Deploy tractor bowser/tanker to deliver 10-15 Litres per sapling. Apply thick organic mulch (paddy straw / dried grass) around root collar to minimize evaporative loss. Excavate shallow saucer basins around stems.",
+    "crew_instructions_hi": "\u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u090f\u0935\u0902 \u0928\u092e\u0940 \u0938\u0902\u0930\u0915\u094d\u0937\u0923: \u092a\u094d\u0930\u0924\u093f \u092a\u094c\u0927\u0947 10-15 \u0932\u0940\u091f\u0930 \u092a\u093e\u0928\u0940 \u091f\u0948\u0902\u0915\u0930 \u0926\u094d\u0935\u093e\u0930\u093e \u0924\u0941\u0930\u0902\u0924 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0947\u0902\u0964 \u0935\u093e\u0937\u094d\u092a\u0940\u0915\u0930\u0923 \u0930\u094b\u0915\u0928\u0947 \u0939\u0947\u0924\u0941 \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091c\u0921\u093c \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u092a\u0930\u093e\u0932\u0940/\u0938\u0942\u0916\u0940 \u0918\u093e\u0938 \u0915\u0940 \u092e\u0932\u094d\u091a\u093f\u0902\u0917 (Mulching) \u092c\u093f\u091b\u093e\u090f\u0902 \u0924\u0925\u093e \u0909\u091a\u093f\u0924 \u0925\u093e\u0932\u093e (Saucer basin) \u092c\u0928\u093e\u090f\u0902\u0964",
+    "recommended_actions": [
+      "Dispatch emergency tractor water bowser (5000L) for deep saucer-basin watering (15L/sapling).",
+      "Apply organic straw/husk mulching around root collars to reduce evaporation.",
+      "Excavate contour bund micro-catchments to harvest any upcoming shower."
+    ],
+    "required_equipment": [
+      "Tractor Water Bowser (5000L)",
+      "Mulching Straw / Paddy Husk",
+      "Shovels / Phawra",
+      "Hose Pipes"
+    ],
+    "estimated_person_days": 37,
+    "estimated_cost_inr": 48750.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "Ramesh Rathod (Beat Guard)",
+    "contact_phone": "+91-9421112345",
+    "dispatch_payload": {
+      "recipient_name": "Ramesh Rathod (Beat Guard)",
+      "recipient_phone": "+91-9421112345",
+      "division": "Yavatmal Forest Division",
+      "range": "Pandharkawada",
+      "beat": "Mukutban",
+      "parcel_id": "MH-YTL-2024-001",
+      "urgency": "CRITICAL",
+      "cause": "DROUGHT_STRESS",
+      "summary_hi": "\u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u090f\u0935\u0902 \u0928\u092e\u0940 \u0938\u0902\u0930\u0915\u094d\u0937\u0923: \u092a\u094d\u0930\u0924\u093f \u092a\u094c\u0927\u0947 10-15 \u0932\u0940\u091f\u0930 \u092a\u093e\u0928\u0940 \u091f\u0948\u0902\u0915\u0930 \u0926\u094d\u0935\u093e\u0930\u093e \u0924\u0941\u0930\u0902\u0924 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0947\u0902\u0964 \u0935\u093e\u0937\u094d\u092a\u0940\u0915\u0930\u0923 \u0930\u094b\u0915\u0928\u0947 \u0939\u0947\u0924\u0941 \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091c\u0921\u093c \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u092a\u0930\u093e\u0932\u0940/\u0938\u0942\u0916\u0940 \u0918\u093e\u0938 \u0915\u0940 \u092e\u0932\u094d",
+      "summary_en": "EMERGENCY IRRIGATION & SOIL CONSERVATION: Deploy tractor bowser/tanker to deliver 10-15 Litres per sapling. Apply thick organic mulch (paddy straw / dried grass"
+    }
+  },
+  {
+    "work_order_id": "WO-OD--003-456FE1",
+    "parcel_id": "OR-SMP-2024-003",
+    "created_at": "2026-10-23T13:40:01Z",
+    "status": "VERIFIED",
+    "urgency": "CRITICAL",
+    "diagnosed_cause": "SURFACE_FIRE_SCORCH",
+    "confidence_score": 0.92,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 2.0% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Fire confirmed: VIIRS-NOAA20 detected thermal anomaly at 0.82km with 92.0% confidence (FRP: 18.4MW).\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b972,000.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "FIRE SUPPRESSION & BUFFER PERIMETER CLEARANCE: Clear a 5-meter wide fire break line around the affected parcel boundary. Clear dry leaf litter. Douse smoldering logs and assess root collar scorch on surviving saplings. Prune burnt branch tips.",
+    "crew_instructions_hi": "\u0905\u0917\u094d\u0928\u093f \u0936\u092e\u0928 \u090f\u0935\u0902 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 \u0928\u093f\u0930\u094d\u092e\u093e\u0923: \u092a\u094c\u0927\u0930\u094b\u092a\u0923 \u0938\u0940\u092e\u093e \u092a\u0930 5 \u092e\u0940\u091f\u0930 \u091a\u094c\u0921\u093c\u0940 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 (Fire break) \u0924\u0941\u0930\u0902\u0924 \u0938\u093e\u092b \u0915\u0930\u0947\u0902\u0964 \u0938\u0942\u0916\u0940 \u092a\u0924\u094d\u0924\u093f\u092f\u094b\u0902 \u0914\u0930 \u0938\u0941\u0932\u0917\u0924\u0940 \u0932\u0915\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u094b \u092c\u0941\u091d\u093e\u090f\u0902\u0964 \u091d\u0941\u0932\u0938\u0947 \u0939\u0941\u090f \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091b\u0902\u091f\u093e\u0908 \u0915\u0930\u0947\u0902 \u0924\u0925\u093e \u091c\u0921\u093c \u0915\u094b \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0915\u0930\u0947\u0902\u0964",
+    "recommended_actions": [
+      "Deploy forest fire squad immediately with backpack mist extinguishers and fire rakes.",
+      "Carve a 5-meter wide cleared fire break line along the active perimeter.",
+      "Douse smoldering leaf litter and protect sapling root collars."
+    ],
+    "required_equipment": [
+      "Backpack Water Mist Fire Extinguishers",
+      "Fire Rakes / Bilhook",
+      "Hand Sprayers",
+      "Safety Helmets"
+    ],
+    "estimated_person_days": 72,
+    "estimated_cost_inr": 72000.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "Subhashree Marndi (Forester)",
+    "contact_phone": "+91-9437198765",
+    "dispatch_payload": {
+      "recipient_name": "Subhashree Marndi (Forester)",
+      "recipient_phone": "+91-9437198765",
+      "division": "Baripada Division",
+      "range": "Pithabata",
+      "beat": "Similipal Buffer Beat 4",
+      "parcel_id": "OR-SMP-2024-003",
+      "urgency": "CRITICAL",
+      "cause": "SURFACE_FIRE_SCORCH",
+      "summary_hi": "\u0905\u0917\u094d\u0928\u093f \u0936\u092e\u0928 \u090f\u0935\u0902 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 \u0928\u093f\u0930\u094d\u092e\u093e\u0923: \u092a\u094c\u0927\u0930\u094b\u092a\u0923 \u0938\u0940\u092e\u093e \u092a\u0930 5 \u092e\u0940\u091f\u0930 \u091a\u094c\u0921\u093c\u0940 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 (Fire break) \u0924\u0941\u0930\u0902\u0924 \u0938\u093e\u092b \u0915\u0930\u0947\u0902\u0964 \u0938\u0942\u0916\u0940 \u092a\u0924\u094d\u0924\u093f\u092f\u094b\u0902 \u0914\u0930 \u0938\u0941\u0932\u0917\u0924\u0940 \u0932\u0915\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u094b \u092c\u0941\u091d\u093e\u090f\u0902\u0964 \u091d\u0941\u0932\u0938\u0947 \u0939\u0941\u090f \u092a\u094c\u0927\u094b\u0902",
+      "summary_en": "FIRE SUPPRESSION & BUFFER PERIMETER CLEARANCE: Clear a 5-meter wide fire break line around the affected parcel boundary. Clear dry leaf litter. Douse smoldering"
+    }
+  },
+  {
+    "work_order_id": "WO-KA--014-4E03F9",
+    "parcel_id": "KA-WGH-2023-014",
+    "created_at": "2026-10-23T13:40:01Z",
+    "status": "VERIFIED",
+    "urgency": "HIGH",
+    "diagnosed_cause": "INVASIVE_WEED_CHOKING",
+    "confidence_score": 0.91,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 8.0% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b936,000.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "INVASIVE WEED REMOVAL & SAPLING RELEASE: Uproot invasive Lantana camara / weeds within a 1.5m radius of each sapling. Ensure root stock is grubbed out to prevent coppicing. Stake vulnerable saplings upright.",
+    "crew_instructions_hi": "\u0916\u0930\u092a\u0924\u0935\u093e\u0930 \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923 (\u0932\u0902\u0924\u093e\u0928\u093e \u0909\u0928\u094d\u092e\u0942\u0932\u0928): \u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915 \u092a\u094c\u0927\u0947 \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0924\u0930\u092b 1.5 \u092e\u0940\u091f\u0930 \u0926\u093e\u092f\u0930\u0947 \u092e\u0947\u0902 \u0932\u0902\u0924\u093e\u0928\u093e \u090f\u0935\u0902 \u0939\u093e\u0928\u093f\u0915\u093e\u0930\u0915 \u0918\u093e\u0938 \u0915\u094b \u091c\u0921\u093c \u0938\u0939\u093f\u0924 \u0909\u0916\u093e\u0921\u093c\u0947\u0902 \u0924\u093e\u0915\u093f \u092a\u094c\u0927\u094b\u0902 \u0915\u094b \u0938\u0942\u0930\u094d\u092f \u0915\u093e \u092a\u094d\u0930\u0915\u093e\u0936 \u092e\u093f\u0932 \u0938\u0915\u0947\u0964 \u0915\u092e\u091c\u094b\u0930 \u092a\u094c\u0927\u094b\u0902 \u0915\u094b \u092c\u093e\u0902\u0938 \u0915\u093e \u0938\u0939\u093e\u0930\u093e \u0926\u0947\u0902\u0964",
+    "recommended_actions": [
+      "Organize community Vana Samiti weed eradication drive.",
+      "Manually uproot Lantana rootstock within 1.5m radius of all planted saplings.",
+      "Erect bamboo stakes for suppressed native saplings."
+    ],
+    "required_equipment": [
+      "Lantana Weed Pullers / Kassi",
+      "Sickles / Daranti",
+      "Bamboo Stakes",
+      "Jute Twine"
+    ],
+    "estimated_person_days": 40,
+    "estimated_cost_inr": 36000.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "Naveen Kumar (Beat Forester)",
+    "contact_phone": "+91-9480112233",
+    "dispatch_payload": {
+      "recipient_name": "Naveen Kumar (Beat Forester)",
+      "recipient_phone": "+91-9480112233",
+      "division": "Kudremukh Wildlife Division",
+      "range": "Kalasa",
+      "beat": "Shola Restoration Beat A",
+      "parcel_id": "KA-WGH-2023-014",
+      "urgency": "HIGH",
+      "cause": "INVASIVE_WEED_CHOKING",
+      "summary_hi": "\u0916\u0930\u092a\u0924\u0935\u093e\u0930 \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923 (\u0932\u0902\u0924\u093e\u0928\u093e \u0909\u0928\u094d\u092e\u0942\u0932\u0928): \u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915 \u092a\u094c\u0927\u0947 \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0924\u0930\u092b 1.5 \u092e\u0940\u091f\u0930 \u0926\u093e\u092f\u0930\u0947 \u092e\u0947\u0902 \u0932\u0902\u0924\u093e\u0928\u093e \u090f\u0935\u0902 \u0939\u093e\u0928\u093f\u0915\u093e\u0930\u0915 \u0918\u093e\u0938 \u0915\u094b \u091c\u0921\u093c \u0938\u0939\u093f\u0924 \u0909\u0916\u093e\u0921\u093c\u0947\u0902 \u0924\u093e\u0915\u093f \u092a\u094c\u0927\u094b\u0902 \u0915\u094b \u0938\u0942\u0930\u094d\u092f \u0915\u093e \u092a\u094d\u0930\u0915\u093e\u0936 \u092e\u093f\u0932 \u0938",
+      "summary_en": "INVASIVE WEED REMOVAL & SAPLING RELEASE: Uproot invasive Lantana camara / weeds within a 1.5m radius of each sapling. Ensure root stock is grubbed out to preven"
+    }
+  },
+  {
+    "work_order_id": "WO-TE--009-C90B7B",
+    "parcel_id": "TS-ADB-2024-009",
+    "created_at": "2026-10-23T13:40:01Z",
+    "status": "VERIFIED",
+    "urgency": "HIGH",
+    "diagnosed_cause": "GRAZING_DAMAGE",
+    "confidence_score": 0.94,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 5.0% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b935,000.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "PERIMETER FENCE REPAIR & CATTLE EXCLUSION: Inspect and repair breached solar electric fence wire or barbed wire. Restore broken support poles. Deepen cattle-proof trenches along vulnerable boundary. Notify village Joint Forest Management Committee.",
+    "crew_instructions_hi": "\u092c\u093e\u0921\u093c \u092e\u0930\u092e\u094d\u092e\u0924 \u090f\u0935\u0902 \u092e\u0935\u0947\u0936\u0940 \u0930\u094b\u0915\u0925\u093e\u092e: \u091f\u0942\u091f\u0940 \u0939\u0941\u0908 \u0938\u094b\u0932\u0930 \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u093f\u0915 \u092c\u093e\u0921\u093c \u0905\u0925\u0935\u093e \u0915\u0902\u091f\u0940\u0932\u0947 \u0924\u093e\u0930 \u0915\u0940 \u0924\u0941\u0930\u0902\u0924 \u092e\u0930\u092e\u094d\u092e\u0924 \u0915\u0930\u0947\u0902\u0964 \u0916\u0902\u092d\u094b\u0902 \u0915\u094b \u0938\u0940\u0927\u093e \u0915\u0930\u0947\u0902 \u090f\u0935\u0902 \u0915\u0948\u091f\u0932-\u092a\u094d\u0930\u0942\u092b \u091f\u094d\u0930\u0947\u0902\u091a (\u0916\u093e\u0908) \u0915\u094b \u0917\u0939\u0930\u093e \u0915\u0930\u0947\u0902\u0964 \u0917\u094d\u0930\u093e\u092e \u0935\u0928 \u0938\u092e\u093f\u0924\u093f \u0915\u094b \u0938\u0942\u091a\u093f\u0924 \u0915\u0930 \u092e\u0935\u0947\u0936\u0940 \u091a\u0930\u093e\u0908 \u0930\u094b\u0915\u0947\u0902\u0964",
+    "recommended_actions": [
+      "Mobilize fence repair squad with replacement high-tensile wire and solar energizer testing.",
+      "Deepen cattle-proof trenches along vulnerable perimeter.",
+      "Coordinate with local Vana Samiti / Gram Panchayat to prevent livestock grazing."
+    ],
+    "required_equipment": [
+      "High-Tensile Wire Spools",
+      "Solar Energizer Tester",
+      "Wooden / Concrete Fence Posts",
+      "Digging Crowbars"
+    ],
+    "estimated_person_days": 28,
+    "estimated_cost_inr": 35000.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "K. Srinivas (Forest Section Officer)",
+    "contact_phone": "+91-9440119988",
+    "dispatch_payload": {
+      "recipient_name": "K. Srinivas (Forest Section Officer)",
+      "recipient_phone": "+91-9440119988",
+      "division": "Eturnagaram Buffer",
+      "range": "Utnoor",
+      "beat": "Indervelli Beat",
+      "parcel_id": "TS-ADB-2024-009",
+      "urgency": "HIGH",
+      "cause": "GRAZING_DAMAGE",
+      "summary_hi": "\u092c\u093e\u0921\u093c \u092e\u0930\u092e\u094d\u092e\u0924 \u090f\u0935\u0902 \u092e\u0935\u0947\u0936\u0940 \u0930\u094b\u0915\u0925\u093e\u092e: \u091f\u0942\u091f\u0940 \u0939\u0941\u0908 \u0938\u094b\u0932\u0930 \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u093f\u0915 \u092c\u093e\u0921\u093c \u0905\u0925\u0935\u093e \u0915\u0902\u091f\u0940\u0932\u0947 \u0924\u093e\u0930 \u0915\u0940 \u0924\u0941\u0930\u0902\u0924 \u092e\u0930\u092e\u094d\u092e\u0924 \u0915\u0930\u0947\u0902\u0964 \u0916\u0902\u092d\u094b\u0902 \u0915\u094b \u0938\u0940\u0927\u093e \u0915\u0930\u0947\u0902 \u090f\u0935\u0902 \u0915\u0948\u091f\u0932-\u092a\u094d\u0930\u0942\u092b \u091f\u094d\u0930\u0947\u0902\u091a (\u0916\u093e\u0908) \u0915\u094b \u0917\u0939\u0930\u093e \u0915\u0930\u0947\u0902\u0964 \u0917",
+      "summary_en": "PERIMETER FENCE REPAIR & CATTLE EXCLUSION: Inspect and repair breached solar electric fence wire or barbed wire. Restore broken support poles. Deepen cattle-pro"
+    }
+  },
+  {
+    "work_order_id": "WO-MA--022-A82C9B",
+    "parcel_id": "MH-RTG-2024-022",
+    "created_at": "2026-10-23T13:40:01Z",
+    "status": "VERIFIED",
+    "urgency": "LOW",
+    "diagnosed_cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+    "confidence_score": 0.92,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Cloud interference detected: Scene has 42.0% cloud cover. Sudden NDVI drop (31.03%) is likely cloud/shadow artifact. Overriding to SENSOR_ARTIFACT_FALSE_ALARM.\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b90.00 within beat-level discretionary authority.",
+      "overridden_cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+      "dfo_approval_required": false
+    },
+    "crew_instructions_en": "SENSOR ARTIFACT / CLOUD SHADOW: Vegetation drop is due to atmospheric cloud interference or shadow. Wait for next clear-sky Sentinel-2 pass; no ground intervention required.",
+    "crew_instructions_hi": "\u0909\u092a\u0917\u094d\u0930\u0939 \u091b\u0935\u093f \u092c\u093e\u0926\u0932 \u0905\u0935\u0930\u094b\u0927: \u092f\u0939 \u0917\u093f\u0930\u093e\u0935\u091f \u092c\u093e\u0926\u0932\u094b\u0902 \u0915\u0940 \u091b\u093e\u092f\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 \u0909\u092a\u0917\u094d\u0930\u0939 \u0926\u094d\u0935\u093e\u0930\u093e \u0926\u0930\u094d\u091c \u0915\u0940 \u0917\u0908 \u0939\u0948\u0964 \u091c\u092e\u0940\u0928\u0940 \u0915\u093e\u0930\u094d\u0930\u0935\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+    "recommended_actions": [
+      "Queue parcel for clear-sky Sentinel-2 pass verification. No field dispatch needed."
+    ],
+    "required_equipment": [],
+    "estimated_person_days": 1,
+    "estimated_cost_inr": 0.0,
+    "dfo_approval_required": false,
+    "assigned_beat_guard": "Sujata Sawant (Van Pal)",
+    "contact_phone": "+91-9422004455",
+    "dispatch_payload": {
+      "recipient_name": "Sujata Sawant (Van Pal)",
+      "recipient_phone": "+91-9422004455",
+      "division": "Ratnagiri Territorial",
+      "range": "Chiplun",
+      "beat": "Khed Ghat",
+      "parcel_id": "MH-RTG-2024-022",
+      "urgency": "LOW",
+      "cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+      "summary_hi": "\u0909\u092a\u0917\u094d\u0930\u0939 \u091b\u0935\u093f \u092c\u093e\u0926\u0932 \u0905\u0935\u0930\u094b\u0927: \u092f\u0939 \u0917\u093f\u0930\u093e\u0935\u091f \u092c\u093e\u0926\u0932\u094b\u0902 \u0915\u0940 \u091b\u093e\u092f\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 \u0909\u092a\u0917\u094d\u0930\u0939 \u0926\u094d\u0935\u093e\u0930\u093e \u0926\u0930\u094d\u091c \u0915\u0940 \u0917\u0908 \u0939\u0948\u0964 \u091c\u092e\u0940\u0928\u0940 \u0915\u093e\u0930\u094d\u0930\u0935\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+      "summary_en": "SENSOR ARTIFACT / CLOUD SHADOW: Vegetation drop is due to atmospheric cloud interference or shadow. Wait for next clear-sky Sentinel-2 pass; no ground intervent"
+    }
+  },
+  {
+    "work_order_id": "WO-MA--007-DAF87A",
+    "parcel_id": "MP-BDH-2024-007",
+    "created_at": "2026-10-23T13:40:01Z",
+    "status": "VERIFIED",
+    "urgency": "LOW",
+    "diagnosed_cause": "PHENOLOGICAL_SHEDDING",
+    "confidence_score": 0.88,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 3.0% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b90.00 within beat-level discretionary authority.",
+      "overridden_cause": null,
+      "dfo_approval_required": false
+    },
+    "crew_instructions_en": "MONITOR ONLY - NORMAL DECIDUOUS PHENOLOGY: Stand is predominantly deciduous (Teak/Sal/Dhaora) shedding leaves seasonally. Maintain normal fire-patrolling schedule; NO emergency irrigation required.",
+    "crew_instructions_hi": "\u0928\u093f\u0917\u0930\u093e\u0928\u0940 \u0930\u0916\u0947\u0902 - \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u092a\u0924\u091d\u0921\u093c: \u092f\u0939 \u0938\u093e\u0917\u094c\u0928/\u0938\u093e\u0932 \u0915\u093e \u092a\u094d\u0930\u093e\u0915\u0943\u0924\u093f\u0915 \u092a\u0924\u091d\u0921\u093c \u0939\u0948\u0964 \u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964 \u0905\u0917\u094d\u0928\u093f\u0936\u092e\u0928 \u0917\u0936\u094d\u0924 \u091c\u093e\u0930\u0940 \u0930\u0916\u0947\u0902\u0964",
+    "recommended_actions": [
+      "Continue routine summer fire patrolling. Withhold emergency watering."
+    ],
+    "required_equipment": [
+      "Monitoring Logsheet"
+    ],
+    "estimated_person_days": 1,
+    "estimated_cost_inr": 0.0,
+    "dfo_approval_required": false,
+    "assigned_beat_guard": "Deepak Tiwari (Van Rakshak)",
+    "contact_phone": "+91-9425887766",
+    "dispatch_payload": {
+      "recipient_name": "Deepak Tiwari (Van Rakshak)",
+      "recipient_phone": "+91-9425887766",
+      "division": "Bandhavgarh Buffer Division",
+      "range": "Manpur",
+      "beat": "Dhamokhar Beat",
+      "parcel_id": "MP-BDH-2024-007",
+      "urgency": "LOW",
+      "cause": "PHENOLOGICAL_SHEDDING",
+      "summary_hi": "\u0928\u093f\u0917\u0930\u093e\u0928\u0940 \u0930\u0916\u0947\u0902 - \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u092a\u0924\u091d\u0921\u093c: \u092f\u0939 \u0938\u093e\u0917\u094c\u0928/\u0938\u093e\u0932 \u0915\u093e \u092a\u094d\u0930\u093e\u0915\u0943\u0924\u093f\u0915 \u092a\u0924\u091d\u0921\u093c \u0939\u0948\u0964 \u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964 \u0905\u0917\u094d\u0928\u093f\u0936\u092e\u0928 \u0917\u0936\u094d\u0924 \u091c\u093e\u0930\u0940 \u0930\u0916\u0947\u0902\u0964",
+      "summary_en": "MONITOR ONLY - NORMAL DECIDUOUS PHENOLOGY: Stand is predominantly deciduous (Teak/Sal/Dhaora) shedding leaves seasonally. Maintain normal fire-patrolling schedu"
+    }
+  },
+  {
+    "work_order_id": "WO-MA--001-AE9503",
+    "parcel_id": "MH-YTL-2024-001",
+    "created_at": "2026-10-23T13:48:28Z",
+    "status": "VERIFIED",
+    "urgency": "CRITICAL",
+    "diagnosed_cause": "DROUGHT_STRESS",
+    "confidence_score": 0.93,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 3.0% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Drought confirmed: 21 consecutive dry days, 7d precip 1.0mm, deficit 75.0%.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b948,750.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "EMERGENCY IRRIGATION & SOIL CONSERVATION: Deploy tractor bowser/tanker to deliver 10-15 Litres per sapling. Apply thick organic mulch (paddy straw / dried grass) around root collar to minimize evaporative loss. Excavate shallow saucer basins around stems.",
+    "crew_instructions_hi": "\u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u090f\u0935\u0902 \u0928\u092e\u0940 \u0938\u0902\u0930\u0915\u094d\u0937\u0923: \u092a\u094d\u0930\u0924\u093f \u092a\u094c\u0927\u0947 10-15 \u0932\u0940\u091f\u0930 \u092a\u093e\u0928\u0940 \u091f\u0948\u0902\u0915\u0930 \u0926\u094d\u0935\u093e\u0930\u093e \u0924\u0941\u0930\u0902\u0924 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0947\u0902\u0964 \u0935\u093e\u0937\u094d\u092a\u0940\u0915\u0930\u0923 \u0930\u094b\u0915\u0928\u0947 \u0939\u0947\u0924\u0941 \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091c\u0921\u093c \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u092a\u0930\u093e\u0932\u0940/\u0938\u0942\u0916\u0940 \u0918\u093e\u0938 \u0915\u0940 \u092e\u0932\u094d\u091a\u093f\u0902\u0917 (Mulching) \u092c\u093f\u091b\u093e\u090f\u0902 \u0924\u0925\u093e \u0909\u091a\u093f\u0924 \u0925\u093e\u0932\u093e (Saucer basin) \u092c\u0928\u093e\u090f\u0902\u0964",
+    "recommended_actions": [
+      "Dispatch emergency tractor water bowser (5000L) for deep saucer-basin watering (15L/sapling).",
+      "Apply organic straw/husk mulching around root collars to reduce evaporation.",
+      "Excavate contour bund micro-catchments to harvest any upcoming shower."
+    ],
+    "required_equipment": [
+      "Tractor Water Bowser (5000L)",
+      "Mulching Straw / Paddy Husk",
+      "Shovels / Phawra",
+      "Hose Pipes"
+    ],
+    "estimated_person_days": 37,
+    "estimated_cost_inr": 48750.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "Ramesh Rathod (Beat Guard)",
+    "contact_phone": "+91-9421112345",
+    "dispatch_payload": {
+      "recipient_name": "Ramesh Rathod (Beat Guard)",
+      "recipient_phone": "+91-9421112345",
+      "division": "Yavatmal Forest Division",
+      "range": "Pandharkawada",
+      "beat": "Mukutban",
+      "parcel_id": "MH-YTL-2024-001",
+      "urgency": "CRITICAL",
+      "cause": "DROUGHT_STRESS",
+      "summary_hi": "\u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u090f\u0935\u0902 \u0928\u092e\u0940 \u0938\u0902\u0930\u0915\u094d\u0937\u0923: \u092a\u094d\u0930\u0924\u093f \u092a\u094c\u0927\u0947 10-15 \u0932\u0940\u091f\u0930 \u092a\u093e\u0928\u0940 \u091f\u0948\u0902\u0915\u0930 \u0926\u094d\u0935\u093e\u0930\u093e \u0924\u0941\u0930\u0902\u0924 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0947\u0902\u0964 \u0935\u093e\u0937\u094d\u092a\u0940\u0915\u0930\u0923 \u0930\u094b\u0915\u0928\u0947 \u0939\u0947\u0924\u0941 \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091c\u0921\u093c \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u092a\u0930\u093e\u0932\u0940/\u0938\u0942\u0916\u0940 \u0918\u093e\u0938 \u0915\u0940 \u092e\u0932\u094d",
+      "summary_en": "EMERGENCY IRRIGATION & SOIL CONSERVATION: Deploy tractor bowser/tanker to deliver 10-15 Litres per sapling. Apply thick organic mulch (paddy straw / dried grass"
+    }
+  },
+  {
+    "work_order_id": "WO-MA--022-ABEBD3",
+    "parcel_id": "MH-RTG-2024-022",
+    "created_at": "2026-10-23T13:48:33Z",
+    "status": "VERIFIED",
+    "urgency": "LOW",
+    "diagnosed_cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+    "confidence_score": 0.92,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Cloud interference detected: Scene has 48.0% cloud cover. Sudden NDVI drop (34.48%) is likely cloud/shadow artifact. Overriding to SENSOR_ARTIFACT_FALSE_ALARM.\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b90.00 within beat-level discretionary authority.",
+      "overridden_cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+      "dfo_approval_required": false
+    },
+    "crew_instructions_en": "SENSOR ARTIFACT / CLOUD SHADOW: Vegetation drop is due to atmospheric cloud interference or shadow. Wait for next clear-sky Sentinel-2 pass; no ground intervention required.",
+    "crew_instructions_hi": "\u0909\u092a\u0917\u094d\u0930\u0939 \u091b\u0935\u093f \u092c\u093e\u0926\u0932 \u0905\u0935\u0930\u094b\u0927: \u092f\u0939 \u0917\u093f\u0930\u093e\u0935\u091f \u092c\u093e\u0926\u0932\u094b\u0902 \u0915\u0940 \u091b\u093e\u092f\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 \u0909\u092a\u0917\u094d\u0930\u0939 \u0926\u094d\u0935\u093e\u0930\u093e \u0926\u0930\u094d\u091c \u0915\u0940 \u0917\u0908 \u0939\u0948\u0964 \u091c\u092e\u0940\u0928\u0940 \u0915\u093e\u0930\u094d\u0930\u0935\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+    "recommended_actions": [
+      "Queue parcel for clear-sky Sentinel-2 pass verification. No field dispatch needed."
+    ],
+    "required_equipment": [],
+    "estimated_person_days": 1,
+    "estimated_cost_inr": 0.0,
+    "dfo_approval_required": false,
+    "assigned_beat_guard": "Sujata Sawant (Van Pal)",
+    "contact_phone": "+91-9422004455",
+    "dispatch_payload": {
+      "recipient_name": "Sujata Sawant (Van Pal)",
+      "recipient_phone": "+91-9422004455",
+      "division": "Ratnagiri Territorial",
+      "range": "Chiplun",
+      "beat": "Khed Ghat",
+      "parcel_id": "MH-RTG-2024-022",
+      "urgency": "LOW",
+      "cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+      "summary_hi": "\u0909\u092a\u0917\u094d\u0930\u0939 \u091b\u0935\u093f \u092c\u093e\u0926\u0932 \u0905\u0935\u0930\u094b\u0927: \u092f\u0939 \u0917\u093f\u0930\u093e\u0935\u091f \u092c\u093e\u0926\u0932\u094b\u0902 \u0915\u0940 \u091b\u093e\u092f\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 \u0909\u092a\u0917\u094d\u0930\u0939 \u0926\u094d\u0935\u093e\u0930\u093e \u0926\u0930\u094d\u091c \u0915\u0940 \u0917\u0908 \u0939\u0948\u0964 \u091c\u092e\u0940\u0928\u0940 \u0915\u093e\u0930\u094d\u0930\u0935\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+      "summary_en": "SENSOR ARTIFACT / CLOUD SHADOW: Vegetation drop is due to atmospheric cloud interference or shadow. Wait for next clear-sky Sentinel-2 pass; no ground intervent"
+    }
+  },
+  {
+    "work_order_id": "WO-OD--003-9E9803",
+    "parcel_id": "OR-SMP-2024-003",
+    "created_at": "2026-10-23T13:51:55Z",
+    "status": "VERIFIED",
+    "urgency": "CRITICAL",
+    "diagnosed_cause": "SURFACE_FIRE_SCORCH",
+    "confidence_score": 0.92,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 2.5% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Fire confirmed: VIIRS-NOAA20 detected thermal anomaly at 0.82km with 92.0% confidence (FRP: 18.4MW).\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b972,000.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "FIRE SUPPRESSION & BUFFER PERIMETER CLEARANCE: Clear a 5-meter wide fire break line around the affected parcel boundary. Clear dry leaf litter. Douse smoldering logs and assess root collar scorch on surviving saplings. Prune burnt branch tips.",
+    "crew_instructions_hi": "\u0905\u0917\u094d\u0928\u093f \u0936\u092e\u0928 \u090f\u0935\u0902 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 \u0928\u093f\u0930\u094d\u092e\u093e\u0923: \u092a\u094c\u0927\u0930\u094b\u092a\u0923 \u0938\u0940\u092e\u093e \u092a\u0930 5 \u092e\u0940\u091f\u0930 \u091a\u094c\u0921\u093c\u0940 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 (Fire break) \u0924\u0941\u0930\u0902\u0924 \u0938\u093e\u092b \u0915\u0930\u0947\u0902\u0964 \u0938\u0942\u0916\u0940 \u092a\u0924\u094d\u0924\u093f\u092f\u094b\u0902 \u0914\u0930 \u0938\u0941\u0932\u0917\u0924\u0940 \u0932\u0915\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u094b \u092c\u0941\u091d\u093e\u090f\u0902\u0964 \u091d\u0941\u0932\u0938\u0947 \u0939\u0941\u090f \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091b\u0902\u091f\u093e\u0908 \u0915\u0930\u0947\u0902 \u0924\u0925\u093e \u091c\u0921\u093c \u0915\u094b \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0915\u0930\u0947\u0902\u0964",
+    "recommended_actions": [
+      "Deploy forest fire squad immediately with backpack mist extinguishers and fire rakes.",
+      "Carve a 5-meter wide cleared fire break line along the active perimeter.",
+      "Douse smoldering leaf litter and protect sapling root collars."
+    ],
+    "required_equipment": [
+      "Backpack Water Mist Fire Extinguishers",
+      "Fire Rakes / Bilhook",
+      "Hand Sprayers",
+      "Safety Helmets"
+    ],
+    "estimated_person_days": 72,
+    "estimated_cost_inr": 72000.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "Subhashree Marndi (Forester)",
+    "contact_phone": "+91-9437198765",
+    "dispatch_payload": {
+      "recipient_name": "Subhashree Marndi (Forester)",
+      "recipient_phone": "+91-9437198765",
+      "division": "Baripada Division",
+      "range": "Pithabata",
+      "beat": "Similipal Buffer Beat 4",
+      "parcel_id": "OR-SMP-2024-003",
+      "urgency": "CRITICAL",
+      "cause": "SURFACE_FIRE_SCORCH",
+      "summary_hi": "\u0905\u0917\u094d\u0928\u093f \u0936\u092e\u0928 \u090f\u0935\u0902 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 \u0928\u093f\u0930\u094d\u092e\u093e\u0923: \u092a\u094c\u0927\u0930\u094b\u092a\u0923 \u0938\u0940\u092e\u093e \u092a\u0930 5 \u092e\u0940\u091f\u0930 \u091a\u094c\u0921\u093c\u0940 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 (Fire break) \u0924\u0941\u0930\u0902\u0924 \u0938\u093e\u092b \u0915\u0930\u0947\u0902\u0964 \u0938\u0942\u0916\u0940 \u092a\u0924\u094d\u0924\u093f\u092f\u094b\u0902 \u0914\u0930 \u0938\u0941\u0932\u0917\u0924\u0940 \u0932\u0915\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u094b \u092c\u0941\u091d\u093e\u090f\u0902\u0964 \u091d\u0941\u0932\u0938\u0947 \u0939\u0941\u090f \u092a\u094c\u0927\u094b\u0902",
+      "summary_en": "FIRE SUPPRESSION & BUFFER PERIMETER CLEARANCE: Clear a 5-meter wide fire break line around the affected parcel boundary. Clear dry leaf litter. Douse smoldering"
+    }
+  },
+  {
+    "work_order_id": "WO-MA--001-6EB5CA",
+    "parcel_id": "MH-YTL-2024-001",
+    "created_at": "2026-10-23T13:52:32Z",
+    "status": "VERIFIED",
+    "urgency": "CRITICAL",
+    "diagnosed_cause": "DROUGHT_STRESS",
+    "confidence_score": 0.93,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 4.5% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Drought confirmed: 21 consecutive dry days, 7d precip 1.2mm, deficit 74.0%.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b948,750.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "EMERGENCY IRRIGATION & SOIL CONSERVATION: Deploy tractor bowser/tanker to deliver 10-15 Litres per sapling. Apply thick organic mulch (paddy straw / dried grass) around root collar to minimize evaporative loss. Excavate shallow saucer basins around stems.",
+    "crew_instructions_hi": "\u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u090f\u0935\u0902 \u0928\u092e\u0940 \u0938\u0902\u0930\u0915\u094d\u0937\u0923: \u092a\u094d\u0930\u0924\u093f \u092a\u094c\u0927\u0947 10-15 \u0932\u0940\u091f\u0930 \u092a\u093e\u0928\u0940 \u091f\u0948\u0902\u0915\u0930 \u0926\u094d\u0935\u093e\u0930\u093e \u0924\u0941\u0930\u0902\u0924 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0947\u0902\u0964 \u0935\u093e\u0937\u094d\u092a\u0940\u0915\u0930\u0923 \u0930\u094b\u0915\u0928\u0947 \u0939\u0947\u0924\u0941 \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091c\u0921\u093c \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u092a\u0930\u093e\u0932\u0940/\u0938\u0942\u0916\u0940 \u0918\u093e\u0938 \u0915\u0940 \u092e\u0932\u094d\u091a\u093f\u0902\u0917 (Mulching) \u092c\u093f\u091b\u093e\u090f\u0902 \u0924\u0925\u093e \u0909\u091a\u093f\u0924 \u0925\u093e\u0932\u093e (Saucer basin) \u092c\u0928\u093e\u090f\u0902\u0964",
+    "recommended_actions": [
+      "Dispatch emergency tractor water bowser (5000L) for deep saucer-basin watering (15L/sapling).",
+      "Apply organic straw/husk mulching around root collars to reduce evaporation.",
+      "Excavate contour bund micro-catchments to harvest any upcoming shower."
+    ],
+    "required_equipment": [
+      "Tractor Water Bowser (5000L)",
+      "Mulching Straw / Paddy Husk",
+      "Shovels / Phawra",
+      "Hose Pipes"
+    ],
+    "estimated_person_days": 37,
+    "estimated_cost_inr": 48750.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "Ramesh Rathod (Beat Guard)",
+    "contact_phone": "+91-9421112345",
+    "dispatch_payload": {
+      "recipient_name": "Ramesh Rathod (Beat Guard)",
+      "recipient_phone": "+91-9421112345",
+      "division": "Yavatmal Forest Division",
+      "range": "Pandharkawada",
+      "beat": "Mukutban",
+      "parcel_id": "MH-YTL-2024-001",
+      "urgency": "CRITICAL",
+      "cause": "DROUGHT_STRESS",
+      "summary_hi": "\u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u090f\u0935\u0902 \u0928\u092e\u0940 \u0938\u0902\u0930\u0915\u094d\u0937\u0923: \u092a\u094d\u0930\u0924\u093f \u092a\u094c\u0927\u0947 10-15 \u0932\u0940\u091f\u0930 \u092a\u093e\u0928\u0940 \u091f\u0948\u0902\u0915\u0930 \u0926\u094d\u0935\u093e\u0930\u093e \u0924\u0941\u0930\u0902\u0924 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0947\u0902\u0964 \u0935\u093e\u0937\u094d\u092a\u0940\u0915\u0930\u0923 \u0930\u094b\u0915\u0928\u0947 \u0939\u0947\u0924\u0941 \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091c\u0921\u093c \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u092a\u0930\u093e\u0932\u0940/\u0938\u0942\u0916\u0940 \u0918\u093e\u0938 \u0915\u0940 \u092e\u0932\u094d",
+      "summary_en": "EMERGENCY IRRIGATION & SOIL CONSERVATION: Deploy tractor bowser/tanker to deliver 10-15 Litres per sapling. Apply thick organic mulch (paddy straw / dried grass"
+    }
+  },
+  {
+    "work_order_id": "WO-OD--003-306AEF",
+    "parcel_id": "OR-SMP-2024-003",
+    "created_at": "2026-10-23T13:52:32Z",
+    "status": "VERIFIED",
+    "urgency": "CRITICAL",
+    "diagnosed_cause": "SURFACE_FIRE_SCORCH",
+    "confidence_score": 0.92,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 2.0% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Fire confirmed: VIIRS-NOAA20 detected thermal anomaly at 0.82km with 92.0% confidence (FRP: 18.4MW).\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b972,000.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "FIRE SUPPRESSION & BUFFER PERIMETER CLEARANCE: Clear a 5-meter wide fire break line around the affected parcel boundary. Clear dry leaf litter. Douse smoldering logs and assess root collar scorch on surviving saplings. Prune burnt branch tips.",
+    "crew_instructions_hi": "\u0905\u0917\u094d\u0928\u093f \u0936\u092e\u0928 \u090f\u0935\u0902 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 \u0928\u093f\u0930\u094d\u092e\u093e\u0923: \u092a\u094c\u0927\u0930\u094b\u092a\u0923 \u0938\u0940\u092e\u093e \u092a\u0930 5 \u092e\u0940\u091f\u0930 \u091a\u094c\u0921\u093c\u0940 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 (Fire break) \u0924\u0941\u0930\u0902\u0924 \u0938\u093e\u092b \u0915\u0930\u0947\u0902\u0964 \u0938\u0942\u0916\u0940 \u092a\u0924\u094d\u0924\u093f\u092f\u094b\u0902 \u0914\u0930 \u0938\u0941\u0932\u0917\u0924\u0940 \u0932\u0915\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u094b \u092c\u0941\u091d\u093e\u090f\u0902\u0964 \u091d\u0941\u0932\u0938\u0947 \u0939\u0941\u090f \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091b\u0902\u091f\u093e\u0908 \u0915\u0930\u0947\u0902 \u0924\u0925\u093e \u091c\u0921\u093c \u0915\u094b \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0915\u0930\u0947\u0902\u0964",
+    "recommended_actions": [
+      "Deploy forest fire squad immediately with backpack mist extinguishers and fire rakes.",
+      "Carve a 5-meter wide cleared fire break line along the active perimeter.",
+      "Douse smoldering leaf litter and protect sapling root collars."
+    ],
+    "required_equipment": [
+      "Backpack Water Mist Fire Extinguishers",
+      "Fire Rakes / Bilhook",
+      "Hand Sprayers",
+      "Safety Helmets"
+    ],
+    "estimated_person_days": 72,
+    "estimated_cost_inr": 72000.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "Subhashree Marndi (Forester)",
+    "contact_phone": "+91-9437198765",
+    "dispatch_payload": {
+      "recipient_name": "Subhashree Marndi (Forester)",
+      "recipient_phone": "+91-9437198765",
+      "division": "Baripada Division",
+      "range": "Pithabata",
+      "beat": "Similipal Buffer Beat 4",
+      "parcel_id": "OR-SMP-2024-003",
+      "urgency": "CRITICAL",
+      "cause": "SURFACE_FIRE_SCORCH",
+      "summary_hi": "\u0905\u0917\u094d\u0928\u093f \u0936\u092e\u0928 \u090f\u0935\u0902 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 \u0928\u093f\u0930\u094d\u092e\u093e\u0923: \u092a\u094c\u0927\u0930\u094b\u092a\u0923 \u0938\u0940\u092e\u093e \u092a\u0930 5 \u092e\u0940\u091f\u0930 \u091a\u094c\u0921\u093c\u0940 \u092b\u093e\u092f\u0930 \u0932\u093e\u0907\u0928 (Fire break) \u0924\u0941\u0930\u0902\u0924 \u0938\u093e\u092b \u0915\u0930\u0947\u0902\u0964 \u0938\u0942\u0916\u0940 \u092a\u0924\u094d\u0924\u093f\u092f\u094b\u0902 \u0914\u0930 \u0938\u0941\u0932\u0917\u0924\u0940 \u0932\u0915\u0921\u093c\u093f\u092f\u094b\u0902 \u0915\u094b \u092c\u0941\u091d\u093e\u090f\u0902\u0964 \u091d\u0941\u0932\u0938\u0947 \u0939\u0941\u090f \u092a\u094c\u0927\u094b\u0902",
+      "summary_en": "FIRE SUPPRESSION & BUFFER PERIMETER CLEARANCE: Clear a 5-meter wide fire break line around the affected parcel boundary. Clear dry leaf litter. Douse smoldering"
+    }
+  },
+  {
+    "work_order_id": "WO-KA--014-5FC5E7",
+    "parcel_id": "KA-WGH-2023-014",
+    "created_at": "2026-10-23T13:52:32Z",
+    "status": "VERIFIED",
+    "urgency": "HIGH",
+    "diagnosed_cause": "INVASIVE_WEED_CHOKING",
+    "confidence_score": 0.91,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 8.0% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b936,000.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "INVASIVE WEED REMOVAL & SAPLING RELEASE: Uproot invasive Lantana camara / weeds within a 1.5m radius of each sapling. Ensure root stock is grubbed out to prevent coppicing. Stake vulnerable saplings upright.",
+    "crew_instructions_hi": "\u0916\u0930\u092a\u0924\u0935\u093e\u0930 \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923 (\u0932\u0902\u0924\u093e\u0928\u093e \u0909\u0928\u094d\u092e\u0942\u0932\u0928): \u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915 \u092a\u094c\u0927\u0947 \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0924\u0930\u092b 1.5 \u092e\u0940\u091f\u0930 \u0926\u093e\u092f\u0930\u0947 \u092e\u0947\u0902 \u0932\u0902\u0924\u093e\u0928\u093e \u090f\u0935\u0902 \u0939\u093e\u0928\u093f\u0915\u093e\u0930\u0915 \u0918\u093e\u0938 \u0915\u094b \u091c\u0921\u093c \u0938\u0939\u093f\u0924 \u0909\u0916\u093e\u0921\u093c\u0947\u0902 \u0924\u093e\u0915\u093f \u092a\u094c\u0927\u094b\u0902 \u0915\u094b \u0938\u0942\u0930\u094d\u092f \u0915\u093e \u092a\u094d\u0930\u0915\u093e\u0936 \u092e\u093f\u0932 \u0938\u0915\u0947\u0964 \u0915\u092e\u091c\u094b\u0930 \u092a\u094c\u0927\u094b\u0902 \u0915\u094b \u092c\u093e\u0902\u0938 \u0915\u093e \u0938\u0939\u093e\u0930\u093e \u0926\u0947\u0902\u0964",
+    "recommended_actions": [
+      "Organize community Vana Samiti weed eradication drive.",
+      "Manually uproot Lantana rootstock within 1.5m radius of all planted saplings.",
+      "Erect bamboo stakes for suppressed native saplings."
+    ],
+    "required_equipment": [
+      "Lantana Weed Pullers / Kassi",
+      "Sickles / Daranti",
+      "Bamboo Stakes",
+      "Jute Twine"
+    ],
+    "estimated_person_days": 40,
+    "estimated_cost_inr": 36000.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "Naveen Kumar (Beat Forester)",
+    "contact_phone": "+91-9480112233",
+    "dispatch_payload": {
+      "recipient_name": "Naveen Kumar (Beat Forester)",
+      "recipient_phone": "+91-9480112233",
+      "division": "Kudremukh Wildlife Division",
+      "range": "Kalasa",
+      "beat": "Shola Restoration Beat A",
+      "parcel_id": "KA-WGH-2023-014",
+      "urgency": "HIGH",
+      "cause": "INVASIVE_WEED_CHOKING",
+      "summary_hi": "\u0916\u0930\u092a\u0924\u0935\u093e\u0930 \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923 (\u0932\u0902\u0924\u093e\u0928\u093e \u0909\u0928\u094d\u092e\u0942\u0932\u0928): \u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915 \u092a\u094c\u0927\u0947 \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0924\u0930\u092b 1.5 \u092e\u0940\u091f\u0930 \u0926\u093e\u092f\u0930\u0947 \u092e\u0947\u0902 \u0932\u0902\u0924\u093e\u0928\u093e \u090f\u0935\u0902 \u0939\u093e\u0928\u093f\u0915\u093e\u0930\u0915 \u0918\u093e\u0938 \u0915\u094b \u091c\u0921\u093c \u0938\u0939\u093f\u0924 \u0909\u0916\u093e\u0921\u093c\u0947\u0902 \u0924\u093e\u0915\u093f \u092a\u094c\u0927\u094b\u0902 \u0915\u094b \u0938\u0942\u0930\u094d\u092f \u0915\u093e \u092a\u094d\u0930\u0915\u093e\u0936 \u092e\u093f\u0932 \u0938",
+      "summary_en": "INVASIVE WEED REMOVAL & SAPLING RELEASE: Uproot invasive Lantana camara / weeds within a 1.5m radius of each sapling. Ensure root stock is grubbed out to preven"
+    }
+  },
+  {
+    "work_order_id": "WO-TE--009-E7E44D",
+    "parcel_id": "TS-ADB-2024-009",
+    "created_at": "2026-10-23T13:52:32Z",
+    "status": "VERIFIED",
+    "urgency": "HIGH",
+    "diagnosed_cause": "GRAZING_DAMAGE",
+    "confidence_score": 0.94,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 5.0% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b935,000.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "PERIMETER FENCE REPAIR & CATTLE EXCLUSION: Inspect and repair breached solar electric fence wire or barbed wire. Restore broken support poles. Deepen cattle-proof trenches along vulnerable boundary. Notify village Joint Forest Management Committee.",
+    "crew_instructions_hi": "\u092c\u093e\u0921\u093c \u092e\u0930\u092e\u094d\u092e\u0924 \u090f\u0935\u0902 \u092e\u0935\u0947\u0936\u0940 \u0930\u094b\u0915\u0925\u093e\u092e: \u091f\u0942\u091f\u0940 \u0939\u0941\u0908 \u0938\u094b\u0932\u0930 \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u093f\u0915 \u092c\u093e\u0921\u093c \u0905\u0925\u0935\u093e \u0915\u0902\u091f\u0940\u0932\u0947 \u0924\u093e\u0930 \u0915\u0940 \u0924\u0941\u0930\u0902\u0924 \u092e\u0930\u092e\u094d\u092e\u0924 \u0915\u0930\u0947\u0902\u0964 \u0916\u0902\u092d\u094b\u0902 \u0915\u094b \u0938\u0940\u0927\u093e \u0915\u0930\u0947\u0902 \u090f\u0935\u0902 \u0915\u0948\u091f\u0932-\u092a\u094d\u0930\u0942\u092b \u091f\u094d\u0930\u0947\u0902\u091a (\u0916\u093e\u0908) \u0915\u094b \u0917\u0939\u0930\u093e \u0915\u0930\u0947\u0902\u0964 \u0917\u094d\u0930\u093e\u092e \u0935\u0928 \u0938\u092e\u093f\u0924\u093f \u0915\u094b \u0938\u0942\u091a\u093f\u0924 \u0915\u0930 \u092e\u0935\u0947\u0936\u0940 \u091a\u0930\u093e\u0908 \u0930\u094b\u0915\u0947\u0902\u0964",
+    "recommended_actions": [
+      "Mobilize fence repair squad with replacement high-tensile wire and solar energizer testing.",
+      "Deepen cattle-proof trenches along vulnerable perimeter.",
+      "Coordinate with local Vana Samiti / Gram Panchayat to prevent livestock grazing."
+    ],
+    "required_equipment": [
+      "High-Tensile Wire Spools",
+      "Solar Energizer Tester",
+      "Wooden / Concrete Fence Posts",
+      "Digging Crowbars"
+    ],
+    "estimated_person_days": 28,
+    "estimated_cost_inr": 35000.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "K. Srinivas (Forest Section Officer)",
+    "contact_phone": "+91-9440119988",
+    "dispatch_payload": {
+      "recipient_name": "K. Srinivas (Forest Section Officer)",
+      "recipient_phone": "+91-9440119988",
+      "division": "Eturnagaram Buffer",
+      "range": "Utnoor",
+      "beat": "Indervelli Beat",
+      "parcel_id": "TS-ADB-2024-009",
+      "urgency": "HIGH",
+      "cause": "GRAZING_DAMAGE",
+      "summary_hi": "\u092c\u093e\u0921\u093c \u092e\u0930\u092e\u094d\u092e\u0924 \u090f\u0935\u0902 \u092e\u0935\u0947\u0936\u0940 \u0930\u094b\u0915\u0925\u093e\u092e: \u091f\u0942\u091f\u0940 \u0939\u0941\u0908 \u0938\u094b\u0932\u0930 \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u093f\u0915 \u092c\u093e\u0921\u093c \u0905\u0925\u0935\u093e \u0915\u0902\u091f\u0940\u0932\u0947 \u0924\u093e\u0930 \u0915\u0940 \u0924\u0941\u0930\u0902\u0924 \u092e\u0930\u092e\u094d\u092e\u0924 \u0915\u0930\u0947\u0902\u0964 \u0916\u0902\u092d\u094b\u0902 \u0915\u094b \u0938\u0940\u0927\u093e \u0915\u0930\u0947\u0902 \u090f\u0935\u0902 \u0915\u0948\u091f\u0932-\u092a\u094d\u0930\u0942\u092b \u091f\u094d\u0930\u0947\u0902\u091a (\u0916\u093e\u0908) \u0915\u094b \u0917\u0939\u0930\u093e \u0915\u0930\u0947\u0902\u0964 \u0917",
+      "summary_en": "PERIMETER FENCE REPAIR & CATTLE EXCLUSION: Inspect and repair breached solar electric fence wire or barbed wire. Restore broken support poles. Deepen cattle-pro"
+    }
+  },
+  {
+    "work_order_id": "WO-MA--022-503993",
+    "parcel_id": "MH-RTG-2024-022",
+    "created_at": "2026-10-23T13:52:32Z",
+    "status": "VERIFIED",
+    "urgency": "LOW",
+    "diagnosed_cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+    "confidence_score": 0.92,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Cloud interference detected: Scene has 42.0% cloud cover. Sudden NDVI drop (31.03%) is likely cloud/shadow artifact. Overriding to SENSOR_ARTIFACT_FALSE_ALARM.\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b90.00 within beat-level discretionary authority.",
+      "overridden_cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+      "dfo_approval_required": false
+    },
+    "crew_instructions_en": "SENSOR ARTIFACT / CLOUD SHADOW: Vegetation drop is due to atmospheric cloud interference or shadow. Wait for next clear-sky Sentinel-2 pass; no ground intervention required.",
+    "crew_instructions_hi": "\u0909\u092a\u0917\u094d\u0930\u0939 \u091b\u0935\u093f \u092c\u093e\u0926\u0932 \u0905\u0935\u0930\u094b\u0927: \u092f\u0939 \u0917\u093f\u0930\u093e\u0935\u091f \u092c\u093e\u0926\u0932\u094b\u0902 \u0915\u0940 \u091b\u093e\u092f\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 \u0909\u092a\u0917\u094d\u0930\u0939 \u0926\u094d\u0935\u093e\u0930\u093e \u0926\u0930\u094d\u091c \u0915\u0940 \u0917\u0908 \u0939\u0948\u0964 \u091c\u092e\u0940\u0928\u0940 \u0915\u093e\u0930\u094d\u0930\u0935\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+    "recommended_actions": [
+      "Queue parcel for clear-sky Sentinel-2 pass verification. No field dispatch needed."
+    ],
+    "required_equipment": [],
+    "estimated_person_days": 1,
+    "estimated_cost_inr": 0.0,
+    "dfo_approval_required": false,
+    "assigned_beat_guard": "Sujata Sawant (Van Pal)",
+    "contact_phone": "+91-9422004455",
+    "dispatch_payload": {
+      "recipient_name": "Sujata Sawant (Van Pal)",
+      "recipient_phone": "+91-9422004455",
+      "division": "Ratnagiri Territorial",
+      "range": "Chiplun",
+      "beat": "Khed Ghat",
+      "parcel_id": "MH-RTG-2024-022",
+      "urgency": "LOW",
+      "cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+      "summary_hi": "\u0909\u092a\u0917\u094d\u0930\u0939 \u091b\u0935\u093f \u092c\u093e\u0926\u0932 \u0905\u0935\u0930\u094b\u0927: \u092f\u0939 \u0917\u093f\u0930\u093e\u0935\u091f \u092c\u093e\u0926\u0932\u094b\u0902 \u0915\u0940 \u091b\u093e\u092f\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 \u0909\u092a\u0917\u094d\u0930\u0939 \u0926\u094d\u0935\u093e\u0930\u093e \u0926\u0930\u094d\u091c \u0915\u0940 \u0917\u0908 \u0939\u0948\u0964 \u091c\u092e\u0940\u0928\u0940 \u0915\u093e\u0930\u094d\u0930\u0935\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+      "summary_en": "SENSOR ARTIFACT / CLOUD SHADOW: Vegetation drop is due to atmospheric cloud interference or shadow. Wait for next clear-sky Sentinel-2 pass; no ground intervent"
+    }
+  },
+  {
+    "work_order_id": "WO-MA--007-217DB6",
+    "parcel_id": "MP-BDH-2024-007",
+    "created_at": "2026-10-23T13:52:32Z",
+    "status": "VERIFIED",
+    "urgency": "LOW",
+    "diagnosed_cause": "PHENOLOGICAL_SHEDDING",
+    "confidence_score": 0.88,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 3.0% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b90.00 within beat-level discretionary authority.",
+      "overridden_cause": null,
+      "dfo_approval_required": false
+    },
+    "crew_instructions_en": "MONITOR ONLY - NORMAL DECIDUOUS PHENOLOGY: Stand is predominantly deciduous (Teak/Sal/Dhaora) shedding leaves seasonally. Maintain normal fire-patrolling schedule; NO emergency irrigation required.",
+    "crew_instructions_hi": "\u0928\u093f\u0917\u0930\u093e\u0928\u0940 \u0930\u0916\u0947\u0902 - \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u092a\u0924\u091d\u0921\u093c: \u092f\u0939 \u0938\u093e\u0917\u094c\u0928/\u0938\u093e\u0932 \u0915\u093e \u092a\u094d\u0930\u093e\u0915\u0943\u0924\u093f\u0915 \u092a\u0924\u091d\u0921\u093c \u0939\u0948\u0964 \u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964 \u0905\u0917\u094d\u0928\u093f\u0936\u092e\u0928 \u0917\u0936\u094d\u0924 \u091c\u093e\u0930\u0940 \u0930\u0916\u0947\u0902\u0964",
+    "recommended_actions": [
+      "Continue routine summer fire patrolling. Withhold emergency watering."
+    ],
+    "required_equipment": [
+      "Monitoring Logsheet"
+    ],
+    "estimated_person_days": 1,
+    "estimated_cost_inr": 0.0,
+    "dfo_approval_required": false,
+    "assigned_beat_guard": "Deepak Tiwari (Van Rakshak)",
+    "contact_phone": "+91-9425887766",
+    "dispatch_payload": {
+      "recipient_name": "Deepak Tiwari (Van Rakshak)",
+      "recipient_phone": "+91-9425887766",
+      "division": "Bandhavgarh Buffer Division",
+      "range": "Manpur",
+      "beat": "Dhamokhar Beat",
+      "parcel_id": "MP-BDH-2024-007",
+      "urgency": "LOW",
+      "cause": "PHENOLOGICAL_SHEDDING",
+      "summary_hi": "\u0928\u093f\u0917\u0930\u093e\u0928\u0940 \u0930\u0916\u0947\u0902 - \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u092a\u0924\u091d\u0921\u093c: \u092f\u0939 \u0938\u093e\u0917\u094c\u0928/\u0938\u093e\u0932 \u0915\u093e \u092a\u094d\u0930\u093e\u0915\u0943\u0924\u093f\u0915 \u092a\u0924\u091d\u0921\u093c \u0939\u0948\u0964 \u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964 \u0905\u0917\u094d\u0928\u093f\u0936\u092e\u0928 \u0917\u0936\u094d\u0924 \u091c\u093e\u0930\u0940 \u0930\u0916\u0947\u0902\u0964",
+      "summary_en": "MONITOR ONLY - NORMAL DECIDUOUS PHENOLOGY: Stand is predominantly deciduous (Teak/Sal/Dhaora) shedding leaves seasonally. Maintain normal fire-patrolling schedu"
+    }
+  },
+  {
+    "work_order_id": "WO-MA--001-DCAF7B",
+    "parcel_id": "MH-YTL-2024-001",
+    "created_at": "2026-10-23T13:53:00Z",
+    "status": "VERIFIED",
+    "urgency": "CRITICAL",
+    "diagnosed_cause": "DROUGHT_STRESS",
+    "confidence_score": 0.93,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Clean satellite observation (cloud cover 3.0% < 30%).\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Drought confirmed: 21 consecutive dry days, 7d precip 1.0mm, deficit 75.0%.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b948,750.00 exceeds \u20b915,000 threshold. Mandating Divisional Forest Officer (DFO) approval.",
+      "overridden_cause": null,
+      "dfo_approval_required": true
+    },
+    "crew_instructions_en": "EMERGENCY IRRIGATION & SOIL CONSERVATION: Deploy tractor bowser/tanker to deliver 10-15 Litres per sapling. Apply thick organic mulch (paddy straw / dried grass) around root collar to minimize evaporative loss. Excavate shallow saucer basins around stems.",
+    "crew_instructions_hi": "\u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u090f\u0935\u0902 \u0928\u092e\u0940 \u0938\u0902\u0930\u0915\u094d\u0937\u0923: \u092a\u094d\u0930\u0924\u093f \u092a\u094c\u0927\u0947 10-15 \u0932\u0940\u091f\u0930 \u092a\u093e\u0928\u0940 \u091f\u0948\u0902\u0915\u0930 \u0926\u094d\u0935\u093e\u0930\u093e \u0924\u0941\u0930\u0902\u0924 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0947\u0902\u0964 \u0935\u093e\u0937\u094d\u092a\u0940\u0915\u0930\u0923 \u0930\u094b\u0915\u0928\u0947 \u0939\u0947\u0924\u0941 \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091c\u0921\u093c \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u092a\u0930\u093e\u0932\u0940/\u0938\u0942\u0916\u0940 \u0918\u093e\u0938 \u0915\u0940 \u092e\u0932\u094d\u091a\u093f\u0902\u0917 (Mulching) \u092c\u093f\u091b\u093e\u090f\u0902 \u0924\u0925\u093e \u0909\u091a\u093f\u0924 \u0925\u093e\u0932\u093e (Saucer basin) \u092c\u0928\u093e\u090f\u0902\u0964",
+    "recommended_actions": [
+      "Dispatch emergency tractor water bowser (5000L) for deep saucer-basin watering (15L/sapling).",
+      "Apply organic straw/husk mulching around root collars to reduce evaporation.",
+      "Excavate contour bund micro-catchments to harvest any upcoming shower."
+    ],
+    "required_equipment": [
+      "Tractor Water Bowser (5000L)",
+      "Mulching Straw / Paddy Husk",
+      "Shovels / Phawra",
+      "Hose Pipes"
+    ],
+    "estimated_person_days": 37,
+    "estimated_cost_inr": 48750.0,
+    "dfo_approval_required": true,
+    "assigned_beat_guard": "Ramesh Rathod (Beat Guard)",
+    "contact_phone": "+91-9421112345",
+    "dispatch_payload": {
+      "recipient_name": "Ramesh Rathod (Beat Guard)",
+      "recipient_phone": "+91-9421112345",
+      "division": "Yavatmal Forest Division",
+      "range": "Pandharkawada",
+      "beat": "Mukutban",
+      "parcel_id": "MH-YTL-2024-001",
+      "urgency": "CRITICAL",
+      "cause": "DROUGHT_STRESS",
+      "summary_hi": "\u0906\u092a\u093e\u0924\u0915\u093e\u0932\u0940\u0928 \u0938\u093f\u0902\u091a\u093e\u0908 \u090f\u0935\u0902 \u0928\u092e\u0940 \u0938\u0902\u0930\u0915\u094d\u0937\u0923: \u092a\u094d\u0930\u0924\u093f \u092a\u094c\u0927\u0947 10-15 \u0932\u0940\u091f\u0930 \u092a\u093e\u0928\u0940 \u091f\u0948\u0902\u0915\u0930 \u0926\u094d\u0935\u093e\u0930\u093e \u0924\u0941\u0930\u0902\u0924 \u092a\u094d\u0930\u0926\u093e\u0928 \u0915\u0930\u0947\u0902\u0964 \u0935\u093e\u0937\u094d\u092a\u0940\u0915\u0930\u0923 \u0930\u094b\u0915\u0928\u0947 \u0939\u0947\u0924\u0941 \u092a\u094c\u0927\u094b\u0902 \u0915\u0940 \u091c\u0921\u093c \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u092a\u0930\u093e\u0932\u0940/\u0938\u0942\u0916\u0940 \u0918\u093e\u0938 \u0915\u0940 \u092e\u0932\u094d",
+      "summary_en": "EMERGENCY IRRIGATION & SOIL CONSERVATION: Deploy tractor bowser/tanker to deliver 10-15 Litres per sapling. Apply thick organic mulch (paddy straw / dried grass"
+    }
+  },
+  {
+    "work_order_id": "WO-MA--022-804E5D",
+    "parcel_id": "MH-RTG-2024-022",
+    "created_at": "2026-10-23T13:53:02Z",
+    "status": "VERIFIED",
+    "urgency": "LOW",
+    "diagnosed_cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+    "confidence_score": 0.92,
+    "verification": {
+      "is_valid": true,
+      "passed_rules": [
+        "CLOUD_SHADOW_ARTIFACT_RULE",
+        "DECIDUOUS_PHENOLOGY_RULE",
+        "DROUGHT_SANITY_RULE",
+        "FIRE_EVIDENCE_RULE",
+        "BUDGET_ESCALATION_RULE"
+      ],
+      "violated_rules": [],
+      "explanation": "[CLOUD_SHADOW_ARTIFACT_RULE] PASS: Cloud interference detected: Scene has 48.0% cloud cover. Sudden NDVI drop (34.48%) is likely cloud/shadow artifact. Overriding to SENSOR_ARTIFACT_FALSE_ALARM.\n[DECIDUOUS_PHENOLOGY_RULE] PASS: Phenology check passed.\n[DROUGHT_SANITY_RULE] PASS: Diagnosis is not drought stress; rule passed.\n[FIRE_EVIDENCE_RULE] PASS: Diagnosis is not fire scorch; rule passed.\n[BUDGET_ESCALATION_RULE] PASS: Expenditure INR \u20b90.00 within beat-level discretionary authority.",
+      "overridden_cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+      "dfo_approval_required": false
+    },
+    "crew_instructions_en": "SENSOR ARTIFACT / CLOUD SHADOW: Vegetation drop is due to atmospheric cloud interference or shadow. Wait for next clear-sky Sentinel-2 pass; no ground intervention required.",
+    "crew_instructions_hi": "\u0909\u092a\u0917\u094d\u0930\u0939 \u091b\u0935\u093f \u092c\u093e\u0926\u0932 \u0905\u0935\u0930\u094b\u0927: \u092f\u0939 \u0917\u093f\u0930\u093e\u0935\u091f \u092c\u093e\u0926\u0932\u094b\u0902 \u0915\u0940 \u091b\u093e\u092f\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 \u0909\u092a\u0917\u094d\u0930\u0939 \u0926\u094d\u0935\u093e\u0930\u093e \u0926\u0930\u094d\u091c \u0915\u0940 \u0917\u0908 \u0939\u0948\u0964 \u091c\u092e\u0940\u0928\u0940 \u0915\u093e\u0930\u094d\u0930\u0935\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+    "recommended_actions": [
+      "Queue parcel for clear-sky Sentinel-2 pass verification. No field dispatch needed."
+    ],
+    "required_equipment": [],
+    "estimated_person_days": 1,
+    "estimated_cost_inr": 0.0,
+    "dfo_approval_required": false,
+    "assigned_beat_guard": "Sujata Sawant (Van Pal)",
+    "contact_phone": "+91-9422004455",
+    "dispatch_payload": {
+      "recipient_name": "Sujata Sawant (Van Pal)",
+      "recipient_phone": "+91-9422004455",
+      "division": "Ratnagiri Territorial",
+      "range": "Chiplun",
+      "beat": "Khed Ghat",
+      "parcel_id": "MH-RTG-2024-022",
+      "urgency": "LOW",
+      "cause": "SENSOR_ARTIFACT_FALSE_ALARM",
+      "summary_hi": "\u0909\u092a\u0917\u094d\u0930\u0939 \u091b\u0935\u093f \u092c\u093e\u0926\u0932 \u0905\u0935\u0930\u094b\u0927: \u092f\u0939 \u0917\u093f\u0930\u093e\u0935\u091f \u092c\u093e\u0926\u0932\u094b\u0902 \u0915\u0940 \u091b\u093e\u092f\u093e \u0915\u0947 \u0915\u093e\u0930\u0923 \u0909\u092a\u0917\u094d\u0930\u0939 \u0926\u094d\u0935\u093e\u0930\u093e \u0926\u0930\u094d\u091c \u0915\u0940 \u0917\u0908 \u0939\u0948\u0964 \u091c\u092e\u0940\u0928\u0940 \u0915\u093e\u0930\u094d\u0930\u0935\u093e\u0908 \u0915\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u0939\u0940\u0902 \u0939\u0948\u0964",
+      "summary_en": "SENSOR ARTIFACT / CLOUD SHADOW: Vegetation drop is due to atmospheric cloud interference or shadow. Wait for next clear-sky Sentinel-2 pass; no ground intervent"
+    }
+  }
+]
