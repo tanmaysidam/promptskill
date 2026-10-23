@@ -223,13 +223,13 @@ resource "google_bigquery_table" "core_sites" {
 }
 
 resource "google_bigquery_table" "core_satellite_telemetry" {
-  dataset_id = google_bigquery_dataset.core.dataset_id
-  table_id   = "satellite_telemetry"
+  dataset_id               = google_bigquery_dataset.core.dataset_id
+  table_id                 = "satellite_telemetry"
+  require_partition_filter = true
 
   time_partitioning {
     type  = "DAY"
     field = "date"
-    require_partition_filter = true
   }
 
   clustering = ["site_id"]
@@ -237,13 +237,13 @@ resource "google_bigquery_table" "core_satellite_telemetry" {
 }
 
 resource "google_bigquery_table" "core_weather_observations" {
-  dataset_id = google_bigquery_dataset.core.dataset_id
-  table_id   = "weather_observations"
+  dataset_id               = google_bigquery_dataset.core.dataset_id
+  table_id                 = "weather_observations"
+  require_partition_filter = true
 
   time_partitioning {
     type  = "DAY"
     field = "date"
-    require_partition_filter = true
   }
 
   clustering = ["site_id"]
@@ -251,13 +251,13 @@ resource "google_bigquery_table" "core_weather_observations" {
 }
 
 resource "google_bigquery_table" "core_fire_events" {
-  dataset_id = google_bigquery_dataset.core.dataset_id
-  table_id   = "fire_events"
+  dataset_id               = google_bigquery_dataset.core.dataset_id
+  table_id                 = "fire_events"
+  require_partition_filter = true
 
   time_partitioning {
     type  = "DAY"
     field = "date"
-    require_partition_filter = true
   }
 
   clustering = ["site_id"]
@@ -267,13 +267,13 @@ resource "google_bigquery_table" "core_fire_events" {
 # --- Ops Tables ---
 
 resource "google_bigquery_table" "ops_interventions" {
-  dataset_id = google_bigquery_dataset.ops.dataset_id
-  table_id   = "interventions"
+  dataset_id               = google_bigquery_dataset.ops.dataset_id
+  table_id                 = "interventions"
+  require_partition_filter = true
 
   time_partitioning {
     type  = "DAY"
     field = "date"
-    require_partition_filter = true
   }
 
   clustering = ["site_id"]
@@ -281,13 +281,13 @@ resource "google_bigquery_table" "ops_interventions" {
 }
 
 resource "google_bigquery_table" "ops_work_orders" {
-  dataset_id = google_bigquery_dataset.ops.dataset_id
-  table_id   = "work_orders"
+  dataset_id               = google_bigquery_dataset.ops.dataset_id
+  table_id                 = "work_orders"
+  require_partition_filter = true
 
   time_partitioning {
     type  = "DAY"
     field = "date"
-    require_partition_filter = true
   }
 
   clustering = ["site_id"]
@@ -297,13 +297,13 @@ resource "google_bigquery_table" "ops_work_orders" {
 # --- Audit Tables ---
 
 resource "google_bigquery_table" "audit_policy_evaluations" {
-  dataset_id = google_bigquery_dataset.audit.dataset_id
-  table_id   = "policy_evaluations"
+  dataset_id               = google_bigquery_dataset.audit.dataset_id
+  table_id                 = "policy_evaluations"
+  require_partition_filter = true
 
   time_partitioning {
     type  = "DAY"
     field = "date"
-    require_partition_filter = true
   }
 
   clustering = ["site_id"]
