@@ -1,31 +1,55 @@
+# ==============================================================================
 # VanaSetu Terraform Outputs
+# ==============================================================================
 
-output "bigquery_dataset_id" {
-  description = "BigQuery dataset ID hosting plantation telemetry"
-  value       = google_bigquery_dataset.monitoring_dataset.dataset_id
+output "project_id" {
+  description = "Target Google Cloud Project ID"
+  value       = var.project_id
 }
 
-output "storage_bucket_url" {
-  description = "GCS bucket for satellite scenes and field photos"
-  value       = google_storage_bucket.satellite_bucket.url
+output "region" {
+  description = "GCP Region (asia-south1)"
+  value       = var.region
 }
 
-output "anomaly_topic_id" {
-  description = "Pub/Sub topic ID for vegetation anomaly alerts"
-  value       = google_pubsub_topic.anomaly_alerts_topic.id
+output "artifact_registry_repository" {
+  description = "Artifact Registry Docker repository endpoint"
+  value       = "${var.region}-docker.pkg.dev/${var.project_id}/${google_artifact_registry_repository.docker_repo.repository_id}"
 }
 
-output "work_orders_topic_id" {
-  description = "Pub/Sub topic ID for dispatched work orders"
-  value       = google_pubsub_topic.work_orders_topic.id
+output "service_accounts" {
+  description = "Narrowly-scoped least privilege service accounts"
+  value = {
+    ingest     = google_service_account.sa_ingest.email
+    agent      = google_service_account.sa_agent.email
+    dispatcher = google_service_account.sa_dispatcher.email
+    dashboard  = google_service_account.sa_dashboard.email
+  }
 }
 
-output "cloud_run_service_url" {
-  description = "HTTPS endpoint of the VanaSetu Cloud Run Agent Service"
-  value       = google_cloud_run_v2_service.vanasetu_service.uri
+output "bigquery_datasets" {
+  description = "BigQuery datasets configured with date partitions & require_partition_filter"
+  value = {
+    core  = google_bigquery_dataset.core.dataset_id
+    ops   = google_bigquery_dataset.ops.dataset_id
+    audit = google_bigquery_dataset.audit.dataset_id
+  }
 }
 
-output "service_account_email" {
-  description = "Service account running the agent orchestration workloads"
-  value       = google_service_account.vanasetu_agent_sa.email
+output "agent_staging_bucket" {
+  description = "Cloud Storage bucket for ADK Agent Engine deployment staging"
+  value       = google_storage_bucket.agent_staging_bucket.name
+}
+
+output "secret_manager_gemini_key_id" {
+  description = "Secret Manager secret ID for Gemini API key"
+  value       = google_secret_manager_secret.gemini_api_key.id
+}
+
+output "cloud_run_workers" {
+  description = "Private Cloud Run worker service endpoints"
+  value = {
+    ingest_worker   = google_cloud_run_v2_service.ingest_worker.uri
+    dispatch_worker = google_cloud_run_v2_service.dispatch_worker.uri
+  }
 }

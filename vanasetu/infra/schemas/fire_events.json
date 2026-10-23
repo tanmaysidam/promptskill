@@ -1,0 +1,12 @@
+[
+  { "name": "site_id", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "date", "type": "DATE", "mode": "REQUIRED" },
+  { "name": "fire_id", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "detected_at", "type": "TIMESTAMP", "mode": "REQUIRED" },
+  { "name": "satellite_sensor", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "confidence_pct", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "brightness_temp_k", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "frp_mw", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "distance_km", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "within_buffer", "type": "BOOLEAN", "mode": "REQUIRED" }
+]

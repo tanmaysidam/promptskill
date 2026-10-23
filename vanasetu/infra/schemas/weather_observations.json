@@ -1,0 +1,13 @@
+[
+  { "name": "site_id", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "date", "type": "DATE", "mode": "REQUIRED" },
+  { "name": "precipitation_mm_7d", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "precipitation_mm_14d", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "precipitation_mm_30d", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "rainfall_deficit_pct", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "max_temperature_c", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "consecutive_dry_days", "type": "INTEGER", "mode": "REQUIRED" },
+  { "name": "vapor_pressure_deficit_kpa", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "heatwave_alert", "type": "BOOLEAN", "mode": "REQUIRED" },
+  { "name": "recorded_at", "type": "TIMESTAMP", "mode": "NULLABLE" }
+]

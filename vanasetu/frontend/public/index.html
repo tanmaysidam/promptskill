@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VanaSetu Ops Dashboard | Forest Restoration Monitoring</title>
+  <meta name="description" content="Operations dashboard for VanaSetu multi-agent early-warning forest restoration system in India.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">
+      <span class="logo-icon">🌿</span>
+      <div>
+        <h1 class="logo-title">VanaSetu (वनसेतु)</h1>
+        <p class="logo-sub">Forest Restoration Early-Warning & Decision Support</p>
+      </div>
+    </div>
+    <div class="nav-actions">
+      <span class="region-badge">📍 GCP Region: asia-south1 (Mumbai)</span>
+      <span class="status-indicator live">Live Telemetry</span>
+    </div>
+  </header>
+
+  <main class="dashboard-container">
+    <!-- Top KPI Grid -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <span class="kpi-label">Monitored Parcels</span>
+        <span class="kpi-val" id="total-parcels">6 Sites</span>
+        <span class="kpi-trend positive">CAMPA & GIM Active</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Active Early Warnings</span>
+        <span class="kpi-val text-warning" id="active-warnings">2 At-Risk</span>
+        <span class="kpi-trend negative">Wildfire & Drought Alerts</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Dispatched Work Orders</span>
+        <span class="kpi-val" id="total-orders">16 Orders</span>
+        <span class="kpi-trend neutral">Bilingual Hindi/English</span>
+      </div>
+      <div class="kpi-card">
+        <span class="kpi-label">Deterministic Verification</span>
+        <span class="kpi-val text-success">100% Passed</span>
+        <span class="kpi-trend positive">Zero False Dispatches</span>
+      </div>
+    </section>
+
+    <!-- Main Workspace Split -->
+    <div class="workspace-grid">
+      <!-- Left Column: Parcels & Live Anomaly Queue -->
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Plantation Sites Registry (BigQuery: core.sites)</h2>
+          <button class="btn btn-sm" id="btn-refresh-parcels">Refresh</button>
+        </div>
+        <div class="table-wrapper">
+          <table class="data-table" id="parcels-table">
+            <thead>
+              <tr>
+                <th>Site ID</th>
+                <th>State & Division</th>
+                <th>Area</th>
+                <th>Species Mix</th>
+                <th>Health Status</th>
+              </tr>
+            </thead>
+            <tbody id="parcels-tbody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Right Column: Dispatched Work Orders -->
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Verified Field Work Orders (BigQuery: ops.work_orders)</h2>
+          <span class="badge badge-accent">Auto-Routed</span>
+        </div>
+        <div class="orders-list" id="orders-container">
+          <!-- Dynamically populated -->
+        </div>
+      </section>
+    </div>
+
+    <!-- Looker Studio Ops Dataset Section -->
+    <section class="panel mt-4">
+      <div class="panel-header">
+        <h2>Looker Studio Restoration Analytics (BigQuery: ops dataset)</h2>
+        <a href="https://lookerstudio.google.com" target="_blank" class="btn btn-secondary btn-sm">Open in Looker Studio ↗</a>
+      </div>
+      <div class="looker-embed-container">
+        <div class="embed-placeholder">
+          <div class="placeholder-icon">📊</div>
+          <h3>Connected to BigQuery `ops.work_orders` & `ops.interventions`</h3>
+          <p>Real-time survival telemetry, expenditure audit tracking, and field crew SLA performance metrics.</p>
+          <div class="dataset-tags">
+            <span class="tag">Partition: DAY</span>
+            <span class="tag">Cluster: site_id</span>
+            <span class="tag">Dataset: ops</span>
+            <span class="tag">Cost Gate: DFO ₹15k</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

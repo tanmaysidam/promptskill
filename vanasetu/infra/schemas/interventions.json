@@ -1,0 +1,14 @@
+[
+  { "name": "intervention_id", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "site_id", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "date", "type": "DATE", "mode": "REQUIRED" },
+  { "name": "created_at", "type": "TIMESTAMP", "mode": "REQUIRED" },
+  { "name": "primary_cause", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "confidence_score", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "urgency", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "reasoning_summary", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "proposed_actions", "type": "STRING", "mode": "REPEATED" },
+  { "name": "estimated_cost_inr", "type": "FLOAT", "mode": "REQUIRED" },
+  { "name": "verifier_status", "type": "STRING", "mode": "REQUIRED" },
+  { "name": "idempotency_key", "type": "STRING", "mode": "REQUIRED" }
+]
